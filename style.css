@@ -24,6 +24,13 @@ html, body {                      /* geldt voor html en body */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
+body {
+  background-image: url('afbeeldingen/feyenoord\ achtergrond.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
 div {                             /* geldt voor div */
   overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
 }
@@ -99,12 +106,14 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
+    width: 400px;
     background-color: #dddddd;
     overflow: hidden;
 }
 
 nav ul li {
     float: left;
+    
 }
 
 nav li a {
@@ -112,6 +121,7 @@ nav li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
+    width: 100px;
     text-decoration: none;
 }
 
