@@ -18,6 +18,7 @@
   margin: 0px;                             /* standaard marge 0 */
 }
 
+
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-color: rgb(0, 0, 0);    /* achtergrondkleur lichtgrijs */
@@ -25,11 +26,10 @@ html, body {                      /* geldt voor html en body */
 }  
 
 
-
-
 div {                             /* geldt voor div */
   overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
 }
+
 
 /* Indeling voor alle pagina's */
 
@@ -38,36 +38,52 @@ div {                             /* geldt voor div */
   margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
+
 header, footer {                  /* geldt voor header en footer */
   margin: 10px 0px;
 }
 
+
 main {                       
   text-align: justify;            /* tekst uitvullen */}
+
 
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
 } 
 
+
 p {
   margin: 10px 0px;
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
+
 img {
   margin: 10px 0px;
 }
+
 
 /* Indeling voor hoofd pagina */
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
+
 .item-plaatje  {
+  float:right;
+  width:250px;
+  padding-left: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+}
+
+
+.logo-feyenoord-plaatje{
   float:left;
   width:250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+
 }
+
 .item-tekst {
   float:right;
   width: 450px;
@@ -81,16 +97,19 @@ h1, h2, h3 {
       color: rgb(255, 255, 255);
 }
 
+
 .smalltext {
     text-align: center;
     font-size: 0.7em;
     color: white;
 }
 
+
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
 
 a:hover {
     text-decoration: underline;
@@ -108,10 +127,12 @@ nav ul {
     overflow: hidden;
 }
 
+
 nav ul li {
     float: left;
     
 }
+
 
 nav li a {
     display: block;
@@ -122,9 +143,11 @@ nav li a {
     text-decoration: none;
 }
 
+
 nav li a:hover {
     background-color: #808080;
 }
+
 
 nav li a.active {
     background-color: rgb(130, 16, 16);
@@ -133,8 +156,11 @@ nav li a.active {
 
 
 .selectie-plaatje{
-
+width: 700px;
 
 }
 
+.selectie-plaatje:hover{ 
+transform:scale(110%);
+}
 
