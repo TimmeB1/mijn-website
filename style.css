@@ -22,7 +22,7 @@
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-color: rgb(0, 0, 0);    /* achtergrondkleur lichtgrijs */
-  color: #ff0000;               /* tekstkleur donkergrijs */
+  color: #ffffff;               /* tekstkleur donkergrijs */
 }  
 
 
@@ -87,6 +87,7 @@ img {
 .item-tekst {
   float:right;
   width: 450px;
+  
 }
 
 /* Indeling voor sub pagina */
@@ -164,3 +165,8 @@ width: 700px;
 transform:scale(110%);
 }
 
+.link-1 {
+color: rgb(255, 0, 0);
+
+
+}
