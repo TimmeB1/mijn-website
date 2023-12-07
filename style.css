@@ -176,5 +176,14 @@ transform:scale(110%);
 .link-1 {
 color: rgb(255, 0, 0);
 
-
 }
+
+
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+

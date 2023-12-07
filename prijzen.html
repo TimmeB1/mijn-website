@@ -26,28 +26,90 @@
 
     <main>
       <p>
-        Eredivisie (Nederlands kampioenschap):
-
-Eredivisie-titels: Feyenoord heeft de Eredivisie (de Nederlandse hoogste voetbalklasse) meerdere keren gewonnen, met hoogtepunten in de jaren 1923, 1924, 1960, 1961, 1965, 1969, 1971, 1974, 1984, 1993, 1999 en 2017. <br>
-
-<br>
-KNVB Beker:
-KNVB Beker-titels: Feyenoord heeft de KNVB Beker, de belangrijkste nationale bekercompetitie in Nederland, meerdere keren gewonnen, waaronder triomfen in de jaren 1930, 1935, 1965, 1978, 1980, 1991, 1992, 2008, 2016 en 2018.<br>
-<br>
-
-Europacup I / UEFA Champions League:
-Feyenoord won de Europacup I (nu de UEFA Champions League) in het seizoen 1969-1970, waarmee het de eerste Nederlandse club werd die deze prestigieuze trofee veroverde. De finale vond plaats op 6 mei 1970, waarin Feyenoord Celtic versloeg met 2-1 in Milaan, Italië.<br>
-<br>
-
-UEFA Cup:
-Feyenoord triomfeerde ook in de UEFA Cup, met een overwinning in het seizoen 1969-1970, waarbij ze de finale bereikten en wonnen in twee legendarische Europese campagnes. De club herhaalde dit succes met een tweede UEFA Cup-titel in het seizoen 1973-1974. <br>
-<br>
-
-Johan Cruijff Schaal:
-De Johan Cruijff Schaal, een jaarlijks terugkerende wedstrijd tussen de winnaar van de Eredivisie en de KNVB Beker, Feyenoord heeft deze prijs gewonnen in: 1999, 2017, 2018 <br>
-<br>
-Feyenoord heeft in de jaren heen dus een ongeloofelijk aantal prijzen weten te bemachtigen. En daarom vind ik dat het de beste club van Nederland is.<br>
+        <table class="tabel-1">
+          <tr>
+            <th>Prijs</th>
+            
+            <th>Jaar</th>
+          </tr>
+          <tr>
+            <td>Eredevisie kampioen</td>
+            
+            <td>1924, 1928, 1936, 1938, 1940, 1961, 1962, 1965, 1969, 1971, 1974, 1984, 1993, 1999, 2017</td>
+          </tr>
+          <tr>
+            <td>KNVB beker</td>
+            <td>1930, 1935, 1965, 1969, 1980, 1984, 1991, 1992, 1994, 1995, 2008, 2016, 2018</td>
+          </tr>
+          <tr>
+            <td>Johan Cruijff Schaal </td>           
+            <td>1991, 1999, 2017, 2018</td>
+          </tr>
+          <tr>
+            <td>UEFA Cup</td>          
+            <td>1974, 2002</td>
+          </tr>
+          <tr>
+            <td>Intercontinental Cup</td>
+            <td>1970</td>
+          </tr>
+          <tr>
+            <td>Silver Bal</td>
+            <td>1926, 1928, 1930, 1933, 1937, 1939, 1942, 1948</td>
+          </tr>
+        </table>
       </p>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img_nature_wide.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img_snow_wide.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img_mountains_wide.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
     </main>
 
     <footer>
