@@ -5,7 +5,7 @@
    letop 1: dit kan de layout soms kan wijzigen 
    letop 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
 /*  * {border: 1px dotted black;}   */
-  
+
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
    letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
@@ -13,50 +13,71 @@
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
-* {                                        /* geldt voor alles */
-  box-sizing: border-box;                  /* zorg dat border meetelt bij de width en height van boxen */
-  margin: 0px;                             /* standaard marge 0 */
+* {
+  /* geldt voor alles */
+  box-sizing: border-box;
+  /* zorg dat border meetelt bij de width en height van boxen */
+  margin: 0px;
+  /* standaard marge 0 */
 }
 
 
-html, body {                      /* geldt voor html en body */
-  margin: 0px;                    /* standaard marge 0 */
-  background-color: rgb(0, 0, 0);    /* achtergrondkleur lichtgrijs */
-  color: #ffffff;               /* tekstkleur donkergrijs */
-}  
+html,
+body {
+  /* geldt voor html en body */
+  margin: 0px;
+  /* standaard marge 0 */
+  background-color: rgb(0, 0, 0);
+  /* achtergrondkleur lichtgrijs */
+  color: #ffffff;
+  /* tekstkleur donkergrijs */
+}
 
 
-div {                             /* geldt voor div */
-  overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
+div {
+  /* geldt voor div */
+  overflow: hidden;
+  /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
 }
 
 
 /* Indeling voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  width: 700px;
+  /* vaste breedte van 700 pixels */
+  margin: 10px auto;
+  /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 
-header, footer {                  /* geldt voor header en footer */
+header,
+footer {
+  /* geldt voor header en footer */
   margin: 10px 0px;
 }
 
 
-main {                       
-  text-align: justify;            /* tekst uitvullen */}
+main {
+  text-align: justify;
+  /* tekst uitvullen */
+}
 
 
-h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
+h1,
+h2,
+h3 {
+  /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
-  text-align: center;             /* tekst centreren */
-} 
+  text-align: center;
+  /* tekst centreren */
+}
 
 
 p {
   margin: 10px 0px;
-  text-align: justify;            /* tekst links en rechts uitvullen */
+  text-align: justify;
+  /* tekst links en rechts uitvullen */
 }
 
 
@@ -67,120 +88,127 @@ img {
 
 /* Indeling voor hoofd pagina */
 
-/* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
+/* .item {} */
+/* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 
-.item-plaatje  {
-  float:right;
+.item-plaatje {
+  float: right;
   height: 200px;
-  width:250px;
-  padding-left: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  width: 250px;
+  padding-left: 15px;
+  /* zorgt dat plaatje niet tegen tekst komt */
 }
 
 
-.logo-feyenoord-plaatje{
-  float:left;
+.logo-feyenoord-plaatje {
+  float: left;
   margin-top: 50px;
-  width:250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  width: 250px;
+  padding-right: 15px;
+  /* zorgt dat plaatje niet tegen tekst komt */
 
 }
 
 .item-tekst {
-  float:right;
+  float: right;
   width: 450px;
-  
+
 }
 
 /* Indeling voor sub pagina */
 
 /* Opmaak voor alle pagina's */
 
-h1, h2, h3 {
-      color: rgb(255, 255, 255);
+h1,
+h2,
+h3 {
+  color: rgb(255, 255, 255);
 }
 
 
 .smalltext {
-    text-align: center;
-    font-size: 0.7em;
-    color: white;
+  text-align: center;
+  font-size: 0.7em;
+  color: white;
 }
 
 
 a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Opmaak voor sub pagina's */
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    width: 400px;
-    background-color: #000000;
-    overflow: hidden;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  width: 500.44px;
+  background-color: #000000;
+  overflow: hidden;
 
 }
 
 
 nav ul li {
-    float: left;
-    
+  float: left;
+
 }
 
 
 nav li a {
-    display: block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 14px 16px;
-    width: 100px;
-    text-decoration: none;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  width: 100px;
+  text-decoration: none;
 }
 
 
 nav li a:hover {
-    background-color: #808080;
+  background-color: #808080;
 }
 
 
 nav li a.active {
-    background-color: rgb(130, 16, 16);
+  background-color: rgb(130, 16, 16);
 }
 
-nav{
-border:  #ffffff;
-border-radius: 2px;
-
-}
-
-
-.selectie-plaatje{
-width: 700px;
+nav {
+  width: 700px;
+  border: #ffffff;
+  border-radius: 2px;
 
 }
 
-.selectie-plaatje:hover{ 
-transform:scale(110%);
+
+.selectie-plaatje {
+  width: 700px;
+
+}
+
+.selectie-plaatje:hover {
+  transform: scale(110%);
 }
 
 .link-1 {
-color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
 
 }
 
 
 
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
@@ -188,6 +216,81 @@ td, th {
 
 
 .text {
-text-align: center;
+  text-align: center;
 
+}
+
+/* Test css voor dropdown */
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
