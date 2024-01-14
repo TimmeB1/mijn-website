@@ -29,9 +29,9 @@ body {
   margin: 0px;
   /* standaard marge 0 */
   background-color: rgb(0, 0, 0);
-  /* achtergrondkleur lichtgrijs */
+  /* achtergrondkleur zwart */
   color: #ffffff;
-  /* tekstkleur donkergrijs */
+  /* tekstkleur wit */
   font-family:'Arial', sans-serif;
 
 }
@@ -96,14 +96,14 @@ p {
 
 
 img {
-  margin: 10px 0px;
+  margin: 10px 0px;        /* de margin is 10px bij 0px */
 
 }
 
 
 .item-tekst {    
-  float: right;
-  width: 450px;
+  float: right;            /* er kunnen items aan de linker kant komen */
+  width: 450px;            /* breedte is 450px */
 
 }
 
@@ -131,12 +131,14 @@ h3 {
 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
+  /* Tekst kleur wordt wit */
 
 }
 
 
 a:hover {
   text-decoration: underline;
+/* Als je over de link gaat wordt hij underlined  */
 
 }
 
@@ -145,267 +147,250 @@ a:hover {
 
 .selectie-plaatje {
   width: 750px;
+/* Plaatje van selectie met 750px breed */
 
 }
 
+
 .selectie-plaatje:hover {
   transform: scale(110%);
+/* Plaatje van selectie en als je er met je muis overheen gaat wordt het groter */
 
 }
 
 
 .link-1 {
   color: rgb(255, 0, 0);
+/* Alle links worden rood  */
 
 }
 
 
 .item-plaatje {
-  float: right;
-  height: 500px;
-  width: 750px;
-  border-radius: 40px;
-
+  float: right; /* Iets kan aan de linker kant komen er van */
+  height: 500px; /* Hoogte 500px */
+  width: 750px; /* Breedte 750px  */
+  border-radius: 40px;  /* Er komen rondingen op 40px */
+  
 }
 
 
 .logo-feyenoord-plaatje {
-  float: left;
-  margin-top: 50px;
-  width: 750px;
-  border-radius: 40px;
-  height:400px;
+  float: left; /* Iets kan aan de rechterkant hier van staan  */
+  margin-top: 50px; /* 50px vrijheid aan de bovenkant */
+  width: 750px; /* Breedte 750px  */
+  border-radius: 40px; /* Er komen rondingen op 40px */
+  height:400px; /* Hoogte 400px */
 
 }
 
 
 .icoon{
-width: 40px;
-
+width: 40px; /* Het icoontje wordt kleiner: 40px */
 
 }
 
 
 .icoon2{
-width: 80px;
-
+width: 80px; /* Het icoontje wordt kleiner: 80px */
 
 }
 
 
 .logo-hover {
   position: relative;
-  width: 750px;
-  border-radius: 40px;
-  height: 400px;
+  width: 750px; /* breedte 750px  */
+  border-radius: 40px; /* Er komen rondingen op 40px */
+  height: 400px; /* Hoogte 400px */
 
 }
 
 
 .effect-1 {
-  position: absolute;
-  top: 50px;
-  bottom:10px;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  background-color: rgba(70, 94, 102, 0.377);
+
+position: absolute;    /* De hover blijft op zijn plek */
+top: 50px;             /* 50 pixels onder de bovenkant */
+bottom: 10px;          /* 10 pixels boven de onderkant */
+left: 0;               /* linkerkant van het scherm */
+right: 0;              /* van het scherm */
+height: 100%;          /* even hoog als het scherm */
+width: 100%;           /* even breed als het scherm */
+opacity: 0;            /* Maakt de laag transparant */
+background-color: rgba(70, 94, 102, 0.377); /* Geeft grijze kleur */
 
 }
 
 
 .effect-2 {
-  position: absolute;
-  top: 50px;
-  bottom:0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  background-color: rgba(223, 27, 27, 0.377);
+position: absolute;                      /* De hover blijft op zijn plek  */
+top: 50px; bottom: 0;                    /* Plaatsing van boven naar beneden, volledige hoogte van de pagina */
+left: 0; right: 0;                       /* Volledige breedte van de pagina */
+height: 100%; width: 100%;               /* Volledige hoogte en breedte van de pagina */
+opacity: 0;                              /* Onzichtbaarheid */
+background-color: rgba(223, 27, 27, 0.377); /* Lichtrode kleur */
 
 }
 
 
 .logo-hover:hover .effect-1  {
-  opacity: 1;
+  opacity: 1;    /* niet doorzichtig */
 
 }
 
 
 .logo-hover:hover .effect-2  {
-  opacity: 1;
+  opacity: 1;   /* niet doorzichtig */
 
 }
 
 
 .hover-tekst {
-  color: rgb(255, 255, 255);
-  font-size: 40px;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+  color: rgb(255, 255, 255); /* Witten kleur */
+  font-size: 40px;             /* Dikke letter 40px */
+  position: absolute;          /* Tekst blijft op plek */
+  top: 70%;                    /* De tekst laat 70% aan de boven kant over */
+  left: 50%;                   /* De tekst laat 50% aan de linkerkant over */
+  -webkit-transform: translate(-50%, -50%); /* Op andere website ook he zelfde uitzien */
+  -ms-transform: translate(-50%, -50%); /* Op andere website ook he zelfde uitzien */
+  transform: translate(-50%, -50%);  /* Op andere website ook he zelfde uitzien */
+  text-align: center;  /* Tekst komt in het midden */
 
 }
 
 
 td,
 th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+  border: 1px solid #dddddd;     /* Kleur van tabel */
+  text-align: left;                /* Alle tekst gaat aan de linker kant */
+  padding: 8px;                    /* De padding is 8px groot */
 
 }
 
 
 .text {
-  text-align: center;
+  text-align: center;              /* Tekst gaat in het midden */
 
 }
 
 
-/* Navbar container */
 .navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
+  overflow: hidden;               /* Als het uit het blokje tekst gaat is de tekst niet te zien */
+  background-color: #333;       /* Zwarte achtergrond */
+  font-family: Arial;             /* Lettertype ariel */
 
 }
 
 
-/* Links inside the navbar */
 .navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  float: left;                    /* Maakt ruimte zodat er iets aan de rechter kant past */
+  font-size: 16px;                /* Letter dikte is 16px */
+  color: white;                 /* Witte tekst */
+  text-align: center;             /* Tekst gaat naar het midden */
+  padding: 14px 16px;             /* Blokje van 14px bij 16px */
   text-decoration: none;
 
 }
 
 
-/* The dropdown container */
 .extra {
-  float: left;
-  overflow: hidden;
+  float: left;                    /* Maakt ruimte zodat er iets aan de rechter kant past */ 
+  overflow: hidden;               /* Als het uit het blokje tekst gaat is de tekst niet te zien */
 
 }
 
 
-/* Dropdown button */
 .extra .extra2 {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+  font-size: 16px;                /* Letter dikte is 16px */
+  border: none;                   /* Geen border */
+  outline: none;                  /* Geen lijn om de butten heen */
+  color: white;                 /* Witte kleur tekst */
+  padding: 14px 16px;             /* Blokje van 14px bij 16px */
+  background-color: inherit;      /* Zelfde achtergrond als de andere achtergronden */
+  font-family: inherit;           /* Zelfde lettertype als de achter lettertypes */
+  margin: 0;                      /* Geen marin voor de dropdown */
  
 }
 
 
-/* Add a red background color to navbar links on hover */
 .navbar a:hover,
 .extra:hover .extra2  {
 
-  background-color: rgb(130, 16, 16);
+  background-color: rgb(130, 16, 16);      /* Rode kleur voor de hover */
 
 }
 
 
-/* Dropdown content (hidden by default) */
 .extracontent {
-  display: none;
-  position: absolute;
-  background-color: #000000;
-  min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  display: none;                            /* Geen waarde voor de dropdown content */
+  position: absolute;                       /* Tekst blijf op zijn plek */
+  background-color: #000000;              /* Zwarte achtergrond */
+  min-width: 100px;                         /* De minimale breedtje moet 100px zijn */
 
 }
 
 
-/* Links inside the dropdown */
 .extracontent a {
-  float: none;
-  color: rgb(130, 16, 16);
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+  padding: 12px 16px;                      /* Het blok is 12px bij 16px */
+  display: block;                          /* De display is een block */
+  text-align: center;                      /* Plaatjes staan in de center  */
 
 }
 
 
-/* Add a grey background color to dropdown links on hover */
 .extracontent a:hover {
-  background-color: #a323237a;
+  background-color: #a323237a;          /* Background van de dropdown heeft een kleur */
 
 }
 
 
-/* Show the dropdown menu on hover */
 .extra:hover .extracontent {
-  display: block;
+  display: block;                         /* De display is een block */
 
 }
 
 
-/* Navigatiebalk voor alle pagina's */
 nav ul {
-  list-style-type: none;
-  margin: auto;
-  padding: 0;
-  width: 500.44px;
-  background-color: #000000;
-  overflow: hidden;
+  list-style-type: none;             /* geen stip in de nav bar */
+  margin: auto;                      /* automatische marin */
+  padding: 0;                        /* er is geen padding */
+  width: 500.44px;                   /* Breedte is 500.44px */
+  background-color: #000000;       /* Background collor is zwart */
+  overflow: hidden;                  /* De tekst die te veel is is niet te zien */
 
 }
 
 
 nav ul li {
-  float: left;
+  float: left;                       /* Er is aan de rechterkant ruimpte om iets te plaatsen */
 
 }
 
 
 nav li a {
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px;
-  width: 100px;
+  display: block;                    /* De display is een block */
+  color: rgb(255, 255, 255);       /* Witte kleur van de tekst in de nav bar */
+  text-align: center;                /* Tekst kom in het middden */
+  padding: 14px 16px;                /* Blokje vna 14px bij 16px */
+  width: 100px;                      /* Breedte 100px */
   text-decoration: none;
 
 }
 
 
 nav li a:hover {
-  background-color: #808080;
+  background-color: #808080;       /* De kleur als je met je muis over de nav bar gaat */
 
 }
 
 
 nav li a.active {
-  background-color: rgb(130, 16, 16);
+  background-color: rgb(130, 16, 16);   /* kleur voor de actieve nav bar  */
 
 }
 
 
 nav {
-  width: 700px;
-  border: #ffffff;
-  border-radius: 2px;
- 
+  width: 750px;                          /* breedte van de nav bar is 750px */
+  
 }
 
