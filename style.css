@@ -260,9 +260,18 @@ background-color: rgba(223, 27, 27, 0.377); /* Lichtrode kleur */
 
 td,
 th {
-  border: 1px solid #dddddd;     /* Kleur van tabel */
+  border: 1px solid rgb(201, 193, 193);     /* Kleur van tabel */
   text-align: left;                /* Alle tekst gaat aan de linker kant */
   padding: 8px;                    /* De padding is 8px groot */
+}
+
+
+td:hover {
+  background-color: rgb(211, 208, 208); /* Tabel  wordt wit als je er over heen gaat */
+
+}
+tr:hover{
+background-color: rgb(131, 21, 21); /* Tabel wordt roor als je er over heen gaat */
 
 }
 
