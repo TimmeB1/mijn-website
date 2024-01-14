@@ -38,7 +38,7 @@ body {
 #hoofdtitel{
   color: red;
   font-size: 75px;
-
+/* tekst op home pagina */
 }
 
 
@@ -66,10 +66,7 @@ footer {
   /* geldt voor header en footer */
   margin: 10px 0px;
   
-
 }
-
-
 
 
 main {
@@ -104,11 +101,12 @@ img {
 }
 
 
-.item-tekst {
+.item-tekst {    
   float: right;
   width: 450px;
 
 }
+
 
 /* Indeling voor sub pagina */
 
@@ -142,10 +140,11 @@ a:hover {
 
 }
 
+
 /* Opmaak voor sub pagina's */
 
 .selectie-plaatje {
-  width: 700px;
+  width: 750px;
 
 }
 
@@ -179,23 +178,29 @@ a:hover {
 
 }
 
+
 .icoon{
 width: 40px;
 
 
 }
 
+
 .icoon2{
 width: 80px;
 
 
 }
+
+
 .logo-hover {
   position: relative;
   width: 750px;
   border-radius: 40px;
   height: 400px;
+
 }
+
 
 .effect-1 {
   position: absolute;
@@ -207,7 +212,9 @@ width: 80px;
   width: 100%;
   opacity: 0;
   background-color: rgba(70, 94, 102, 0.377);
+
 }
+
 
 .effect-2 {
   position: absolute;
@@ -219,14 +226,21 @@ width: 80px;
   width: 100%;
   opacity: 0;
   background-color: rgba(223, 27, 27, 0.377);
+
 }
+
+
 .logo-hover:hover .effect-1  {
   opacity: 1;
+
 }
+
 
 .logo-hover:hover .effect-2  {
   opacity: 1;
+
 }
+
 
 .hover-tekst {
   color: rgb(255, 255, 255);
@@ -238,6 +252,7 @@ width: 80px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+
 }
 
 
@@ -255,6 +270,7 @@ th {
 
 }
 
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
@@ -262,6 +278,7 @@ th {
   font-family: Arial;
 
 }
+
 
 /* Links inside the navbar */
 .navbar a {
@@ -274,15 +291,17 @@ th {
 
 }
 
+
 /* The dropdown container */
-.dropdown {
+.extra {
   float: left;
   overflow: hidden;
 
 }
 
+
 /* Dropdown button */
-.dropdown .dropbtn {
+.extra .extra2 {
   font-size: 16px;
   border: none;
   outline: none;
@@ -294,15 +313,18 @@ th {
  
 }
 
+
 /* Add a red background color to navbar links on hover */
 .navbar a:hover,
-.dropdown:hover .dropbtn {
+.extra:hover .extra2  {
+
   background-color: rgb(130, 16, 16);
 
 }
 
+
 /* Dropdown content (hidden by default) */
-.dropdown-content {
+.extracontent {
   display: none;
   position: absolute;
   background-color: #000000;
@@ -312,8 +334,9 @@ th {
 
 }
 
+
 /* Links inside the dropdown */
-.dropdown-content a {
+.extracontent a {
   float: none;
   color: rgb(130, 16, 16);
   padding: 12px 16px;
@@ -323,17 +346,20 @@ th {
 
 }
 
+
 /* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
+.extracontent a:hover {
   background-color: #a323237a;
 
 }
 
+
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.extra:hover .extracontent {
   display: block;
 
 }
+
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
