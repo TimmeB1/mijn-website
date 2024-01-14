@@ -65,8 +65,11 @@ header,
 footer {
   /* geldt voor header en footer */
   margin: 10px 0px;
+  
 
 }
+
+
 
 
 main {
@@ -160,8 +163,9 @@ a:hover {
 
 .item-plaatje {
   float: right;
-  height: 400px;
+  height: 500px;
   width: 750px;
+  border-radius: 40px;
 
 }
 
@@ -170,18 +174,33 @@ a:hover {
   float: left;
   margin-top: 50px;
   width: 750px;
+  border-radius: 40px;
+  height:400px;
 
 }
 
+.icoon{
+width: 40px;
+
+
+}
+
+.icoon2{
+width: 80px;
+
+
+}
 .logo-hover {
   position: relative;
-  width: 100%;
+  width: 750px;
+  border-radius: 40px;
+  height: 400px;
 }
 
 .effect-1 {
   position: absolute;
   top: 50px;
-  bottom:0;
+  bottom:10px;
   left: 0;
   right: 0;
   height: 100%;
@@ -306,7 +325,7 @@ th {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ffffff;
+  background-color: #a323237a;
 
 }
 
